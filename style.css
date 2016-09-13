@@ -1,0 +1,72 @@
+html,
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: #555;
+    overflow-x: hidden;
+}
+.horizon
+{
+    line-height: 0;
+    z-index: 100;
+    width: 2000px;
+}
+
+.front
+{
+    z-index: 500;
+    top: 150px;
+    width: 3700px;
+}
+
+.page
+{
+    top: 0px;
+    width: 500px;
+    background: white;
+    padding: 10px 30px;
+    border: 10px #ccc solid;
+    position: absolute;
+}
+
+.birth
+{
+    left: 300px;
+}
+
+.growingup
+{
+    left: 1200px;
+    
+}
+
+.funfact
+{
+    
+    left: 2100px;
+}
+
+.zapposfamily
+{
+    left: 3000px;
+}
+.scroll
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.square {
+  position: absolute;
+}
+
+.square-1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  top: 600px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>LlamaLove</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css" /> </head>
+
+<body>
+    <div class="container">
+        
+        <div class="horizon scroll"> <img src="main.jpg" alt="" /> </div>
+        <div class="front scroll">
+            <div class="birth page">
+                <h3>My Birth</h3>
+                    <br/> - Llama pregnecncies last between 342 - 368 days!
+                    <br/> - A baby Llama is called a cria.
+                    <br/> - Only one special baby is typically created at a time. Twins are rare.
+                    <img src="img/llama.png" height="500" width="200">
+            </div>
+            <div class="growingup page">
+               <h3>Growing up is hard!</h3>
+                    <br/> - Llamas are native to the South American Andes
+                    <br/> - Llamas are often found in mountain regions  
+                    <br/> - Llamas eat food from many sources
+                    <img src="img/llamas.png"  height="500" width="500">
+            </div>
+            <div class="funfact page">
+                <h3>Fun Facts About Me</h3>
+                    <br/> - If you place too much weight on a Llama they refuse to move!
+                    <br/> - Llamas can reach a speed of 35mph.
+                    <br/> - Llamas make a great guard.
+                    <img src="img/morellamas.png" height="500" width="500">
+            </div>
+            <div class="zapposfamily page">
+               <h3>Joining the zappos family!</h3>
+                <p> I am a front-end developer who is very passionate about user experiance and design. There may be 10 working products but the one with the best design will be used the most. Thus, I beleive it is critical to have good front-end developers. In my project I have used html, css, and javascript. The website is created this way because I thought it would be eaisiest to read and understand all the topics. This design is also not used very often. To make the website responsive you can use media queries and make it scrollable up and down. </p>
+                   <img src="zappotopia.jpg" height="365" width="500">
+                    
+            </div>
+        </div>
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript" src="jquery.jInvertScroll.js"></script>
+        <script type="text/javascript">
+            (function ($) {
+                $.jInvertScroll(['.scroll']);
+            }(jQuery));
+            $(document).ready(function () {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 20);
+            });
+        </script>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-376733-5']);
+            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+        <div id="fb-root"></div>
+        <script type="text/javascript">
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/it_IT/all.js#xfbml=1&appId=168572623196006";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+</body>
+
+</html>
